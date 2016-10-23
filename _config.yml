@@ -1,17 +1,22 @@
 # Setup
-title:        Airizse 
-tagline:      a baneling
+title:        ./airizse 
+tagline:      I wanted to tell you a UDP joke but you might not get it...
 baseurl:      ""
 paginate:     1
+description:  This is my nexus in this sea called Internet  
+
+permalink: /:title/
 
 # About/contact
-author:
+author:       Airizse
   name:       Airizse
   url:        https://airizse.github.io/ 
 
 # Gems
 gems:
   - jekyll-paginate
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
 #Others
 markdown: kramdown
